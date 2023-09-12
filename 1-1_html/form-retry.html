@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>フォームリトライ</title>
+</head>
+<body>
+  <h1>フォームリトライ</h1>
+  <form action="/register">
+    <label for="lastname">姓</label>
+    <input type="text" name="lastname" id="lastname">
+    <label for="firstname">名</label>
+    <input type="text" name="firstname" id="firstname">
+    <select name="gender" id="gender">
+      <option value="male">男</option>
+      <option value="female">女</option>
+    </select>
+    <div>
+      <label for="ans-yes">いいよ</label>
+      <input type="checkbox" name="ans" id="ans-yes">
+      <label for="ans-no">だめよ</label>
+      <input type="checkbox" name="ans" id="ans-no">
+    <div>
+      <label for="today">今日</label>
+      <input type="radio" name="which" id="today">
+      <label for="Tommorrow">明日</label>
+      <input type="radio" name="which" id="Tommorrow">
+      <button>登録</button>
+    </div>
+    </div>
+  </form>
+</body>
+</html>
